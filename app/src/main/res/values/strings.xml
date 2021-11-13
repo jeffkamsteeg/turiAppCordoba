@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GotoflyApp</string>
+    <string name="to">to</string>
+    <string name="subject">subject</string>
+    <string name="message">message</string>
+    <string name="checkedtextview">CABO DE LA VELA</string>
+    <string name="checkedtextview3">En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe.</string>
+    <string name="checkedtextview5">Sitios Recomendados</string>
+     <string name="checkedtextview7">Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu</string>
+    <string name="checkedtextview8">Se encuentra ubicada en el departamento de la Guajila al norte de Colombia, La temperatura promedio en Cabo de la Vela es 27.2 °C. Hay alrededor de precipitaciones de 466 mm.</string>
+
+</resources>
