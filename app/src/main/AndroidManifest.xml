@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GotoflyApp">
         <activity
+            android:name=".MainHome"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
