@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    android:textAlignment="textStart"
+    tools:context=".DetailActivity">
+
+
+  <CheckedTextView
+      android:id="@+id/checkedTextView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="CABO DE LA VELA"
+      android:textSize="30dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:layout_editor_absoluteY="25dp" />
+
+  <CheckedTextView
+      android:id="@+id/checkedTextView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="146dp"
+      android:layout_marginBottom="15dp"
+      android:text="Sitios Recomendados:"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toTopOf="@+id/checkedTextView6"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.118"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/checkedTextView3" />
+
+  <CheckedTextView
+      android:id="@+id/checkedTextView3"
+      android:layout_width="364dp"
+      android:layout_height="118dp"
+      android:text="En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/checkedTextView2"
+      app:layout_constraintVertical_bias="0.036" />
+
+  <CheckedTextView
+      android:id="@+id/checkedTextView6"
+      android:layout_width="367dp"
+      android:layout_height="113dp"
+      android:text="Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.543"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/checkedTextView2"
+      app:layout_constraintVertical_bias="0.376" />
+
+  <CheckedTextView
+      android:id="@+id/checkedTextView4"
+      android:layout_width="373dp"
+      android:layout_height="74dp"
+      android:text="Se encuentra ubicada en el departamento de la Guajila al norte de Colombia, La temperatura promedio en Cabo de la Vela es 27.2 °C. Hay alrededor de precipitaciones de 466 mm."
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/checkedTextView2"
+      app:layout_constraintVertical_bias="0.989" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="346dp"
+      android:layout_height="228dp"
+      android:layout_marginTop="122dp"
+      app:layout_constraintBottom_toBottomOf="@+id/checkedTextView4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.492"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/checkedTextView6"
+      app:layout_constraintVertical_bias="0.019"
+      app:srcCompat="@drawable/cabofoto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,35 +14,36 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?android:attr/selectableItemBackground">
+    android:background="@android:drawable/menuitem_background">
 
     <ImageView
         android:id="@+id/imageview_thumb"
-        android:layout_width="@dimen/thumbnail_size"
-        android:layout_height="@dimen/thumbnail_size"
-        android:layout_marginBottom="8dp"
+        android:layout_width="94dp"
+        android:layout_height="142dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:contentDescription="@string/contact_thumb"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/ic_person"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_person"
         tools:src="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textview_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="4dp"
         android:ellipsize="end"
         android:maxLines="1"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -54,18 +55,73 @@
 
     <TextView
         android:id="@+id/textview_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-20dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:ellipsize="end"
-        android:maxLines="1"
-        tools:text="test@email.com"
+        android:ellipsize="start"
+        android:maxLines="@integer/material_motion_duration_medium_1"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="?android:attr/textColorSecondary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/imageview_thumb"
-        app:layout_constraintTop_toBottomOf="@+id/textview_name" />
+        app:layout_constraintTop_toBottomOf="@+id/textview_name"
+        tools:text="test@email.com" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textview_email"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textview_email"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textview_email"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textview_email"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textview_email"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

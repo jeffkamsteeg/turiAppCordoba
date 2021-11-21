@@ -1,6 +1,7 @@
 package com.mintic.myaddressbook
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,11 +12,11 @@ import com.bumptech.glide.Glide
 import java.util.ArrayList
 
 
-class ContactsAdapter(
+class ContactAdapter(
     private val mContacts: ArrayList<Contact>,
     private val context: Context,
-    private val onClick: (Contact) -> Unit
-) : RecyclerView.Adapter<ContactsAdapter.ContactViewHolder>() {
+    private val onClick: (Contact?) -> Unit
+) : RecyclerView.Adapter<ContactAdapter.ContactViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.contact_list_item, parent, false)
@@ -39,9 +40,8 @@ class ContactsAdapter(
 
         init {
             itemView.setOnClickListener {
-                currentContact?.let {
-                    onClick(it)
-                }
+                Log.d(TAG, "itemView OnClick")
+                onClick(currentContact)
             }
         }
 
@@ -49,7 +49,7 @@ class ContactsAdapter(
         fun bind(contact: Contact) {
             currentContact = contact
 
-            val fullName = "${contact.firstName} ${contact.lastName}"
+            val fullName = "${contact.Titulo} ${contact.lastName}"
             nameLabel.text = fullName
             emailLabel.text = contact.email
 
@@ -57,5 +57,9 @@ class ContactsAdapter(
                 .load(contact.imageUrl)
                 .into(imageView)
         }
+    }
+
+    companion object{
+        private const val TAG = "ContactAdapter"
     }
 }

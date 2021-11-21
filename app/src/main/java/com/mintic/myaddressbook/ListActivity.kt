@@ -1,5 +1,6 @@
 package com.mintic.myaddressbook
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -10,10 +11,10 @@ import java.util.ArrayList
 import org.json.JSONArray
 import org.json.JSONException
 
-class MainActivity : AppCompatActivity() {
+class ListActivity : AppCompatActivity() {
 
     private lateinit var mContacts: ArrayList<Contact>
-    private lateinit var mAdapter: ContactsAdapter
+    private lateinit var mAdapter: ContactAdapter
     private lateinit var recycler: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         recycler = findViewById(R.id.contact_list)
         setupRecyclerView()
-        generateContacts()
+        initDataFromFile()
 //        mContacts = createMockContacts()
     }
 
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 DividerItemDecoration.VERTICAL
             )
         )
-        mAdapter = ContactsAdapter(mContacts, this) { contact ->
+        mAdapter = ContactAdapter(mContacts, this) { contact ->
             contactOnClick(contact)
         }
 
@@ -45,15 +46,28 @@ class MainActivity : AppCompatActivity() {
     }
 
     /* RecyclerView item is clicked. */
-    private fun contactOnClick(contact: Contact) {
+    private fun contactOnClick(contact: Contact?) {
         Log.d(TAG, "Click on: $contact")
+        contact?.let {
+            navigateToDetail(it)
+        }
+    }
+
+    private fun navigateToDetail(contact: Contact) {
+        val intent = Intent(this, DetailActivity::class.java).apply {
+            putExtra(KEY_NAME, contact.Titulo)
+            putExtra(KEY_LAST_NAME, contact.lastName)
+            putExtra(KEY_CONTACT, contact)
+        }
+
+        startActivity(intent)
     }
 
     /**
      * Generates mock contact data to populate the UI from a JSON file in the
      * assets directory, called from the options menu.
      */
-    private fun generateContacts() {
+    private fun initDataFromFile() {
         val contactsString = readContactJsonFile()
         try {
             val contactsJson = JSONArray(contactsString)
@@ -99,14 +113,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun createMockContacts(): ArrayList<Contact> {
         return arrayListOf(
-            Contact("Jose", "Perez", "jose@gmail.com", ""),
-            Contact("Jose", "Perez", "jose@gmail.com", ""),
-            Contact("Jose", "Perez", "jose@gmail.com", ""),
-            Contact("Juan", "Perez", "juan@gmail.com", "")
+            Contact("Hector", "Cortez", "hectorc@gmail.com", ""),
+            Contact("Johana", "Mafla", "johanam@gmail.com", ""),
+            Contact("Jose", "Perez", "josep@gmail.com", ""),
+            Contact("Juan", "Londoño", "juanl@gmail.com", "")
         )
     }
 
     companion object {
-        private val TAG = MainActivity::class.java.simpleName
+        private val TAG = ListActivity::class.java.simpleName
+        const val KEY_NAME = "contact_extra_name"
+        const val KEY_LAST_NAME = "contact_extra_last_name"
+        const val KEY_CONTACT = "contact_extra"
     }
 }
