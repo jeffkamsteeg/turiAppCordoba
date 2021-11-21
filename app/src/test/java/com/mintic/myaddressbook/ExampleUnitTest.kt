@@ -1,4 +1,4 @@
-package com.mintic.gotoflyapp
+package com.mintic.myaddressbook
 
 import org.junit.Test
 

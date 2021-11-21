@@ -1,12 +1,32 @@
-<resources>
-    <string name="app_name">GotoflyApp</string>
-    <string name="to">to</string>
-    <string name="subject">subject</string>
-    <string name="message">message</string>
-    <string name="checkedtextview">CABO DE LA VELA</string>
-    <string name="checkedtextview3">En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe.</string>
-    <string name="checkedtextview5">Sitios Recomendados</string>
-    <string name="checkedtextview7">Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu</string>
-    <string name="checkedtextview8">Se encuentra ubicada en el departamento de la Guajila al norte de Colombia, La temperatura promedio en Cabo de la Vela es 27.2 °C. Hay alrededor de precipitaciones de 466 mm.</string>
+<!--
+  Copyright 2018 Google Inc.
 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+    <string name="app_name">MyAddressBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_thumb">Contact Thubmnail Picture</string>
+    <string name="action_clear">Clear</string>
+    <string name="new_contact">New Contact</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact_not_valid">Please enter valid contact information</string>
+    <string name="action_generate">Generate</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="action_sort_first">Sort by First Name</string>
+    <string name="action_sort_last">Sort by Last Name</string>
 </resources>
