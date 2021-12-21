@@ -2,6 +2,7 @@ package com.cubidevs.dccomics.drawer
 
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Button
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -22,6 +23,7 @@ class DrawerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
         binding = ActivityDrawerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -34,6 +36,7 @@ class DrawerActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_drawer)
+
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(

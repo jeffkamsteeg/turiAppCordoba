@@ -1,10 +1,13 @@
 package com.cubidevs.dccomics.main
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.widget.Button
 import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
@@ -15,6 +18,22 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+/**
+        val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener {
+            launchMap()
+        }
+*/
+    }
+
+    private fun launchMap() {
+        val gmmIntentUri = Uri.parse("geo_37.7749,-122.4194")
+        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+        mapIntent.setPackage("com.google.android.apps.maps")
+        mapIntent.resolveActivity(packageManager)?.let{
+            startActivity(mapIntent)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

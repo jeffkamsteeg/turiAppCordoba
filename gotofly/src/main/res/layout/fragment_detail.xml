@@ -125,5 +125,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/label_powers_text_view" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="32dp"
+            tools:ignore="MissingConstraints" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

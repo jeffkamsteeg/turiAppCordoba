@@ -1,43 +1,54 @@
 
 [
     {
-        "name": "CABO DE LA VELA",
-        "powers": "Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu",
-        "alias": "Se encuentra ubicada en el Norte de la Guajira...",
-        "city": "En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe",
-        "height": 27.2,
-        "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cabo_de_la_Vela%2C_Colombia.jpg/1024px-Cabo_de_la_Vela%2C_Colombia.jpg"
+        "name": "MONTELÍBANO",
+        "powers": "Ir al parque Ecologico acompañado podría resultar una experiencia única. Se puede hacer diferentes actividades desde canotaje, pesca hasta recorridos en caminata y muchas atracciones más.",
+        "alias": "Municipio del Sur del departamento de Córdoba.",
+        "city": "La capital Niquelera De America limita con los municipios de Planeta Rica, Buenavista y Ayapel; al sur con los Municipios de Puerto Libertador y Taráza, Cáceres e Ituango - Departamento de Antioquia; por el oriente con los municipio de La Apartada y al oriente con el municipio de Tierralta.",
+        "height": 28.2,
+        "urlPicture": "https://colombiaextraordinaria.com/somos_colombia/external/img/img_departamentos/Montel%C3%ADbanoimagen_h.jpg",
+        "latitud": "7.98333",
+        "longitud": "-75.4167"
+
     },
     {
-        "name": "MAICAO",
-        "powers": "Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu",
-        "alias": "Se encuentra ubicada en el Norte de la Guajira...",
-        "city": "En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe",
-        "height": 27.2,
-        "urlPicture": "https://cr00.epimg.net/radio/imagenes/2021/10/27/barranquilla/1635336371_026568_1635337292_noticia_normal.jpg"
+        "name": "PLANETA RICA",
+        "powers": "Las principales actividades económicas están relacionadas con la producción agropecuaria y ganadera, siendo la ganadería el principal renglón de la economía del municipio el cual puede mover mediante compra y venta de ganado mediante subastas más de mil millones de pesos en un día",
+        "alias": "La Ciudad Bella y Cordial esta al Suroriente de Córdoba. ",
+        "city": "Planeta rica cuenta con riqueza cultural tradicional, aquí vivieron los músicos de vallenato, Alejandro Durán y Enrique Díaz Tovar. Durante la segunda semana del mes de febrero se lleva a cabo la tradicional Corraleja.",
+        "height": 26.4,
+        "urlPicture": "https://www.semana.com/resizer/uChXZcUITQA2wIVZQU3V0Kbe-Zg=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/T6IUMWODIBFBLEISM76H2UZYGU.jpg",
+        "latitud": "8.41065",
+        "longitud": "-75.5852"
     },
     {
-        "name": "MANAURE",
-        "powers": "Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu",
-        "alias": "Se encuentra ubicada en el Norte de la Guajira...",
-        "city": "En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe",
-        "height": 27.2,
-        "urlPicture": "https://www.elheraldo.co/sites/default/files/styles/414x310/public/articulo/2016/04/15/pais_manaure_0.jpg?itok=hgTAOby2"
+        "name": "SAHAGÚN",
+        "powers": "Para conocer podría ir a la Ingesia de San Tirso, un monumento historico del Municipio. También Al santario de la Virgen Peregrina, Monasterio de San Pedro o al Punte Canto.",
+        "alias": "Al Este de Córdoba y 70 kilometros de Montería.",
+        "city": "Sahagún, oficialmente San Juan de Sahagún y conocido a nivel nacional como la ciudad cultural. Tiene importantes reservas de gas natural en la zona del corregimiento de Santiago, sobre la ruta de El Viajano a San Marcos, el cual es llevado a las refinerías de Cartagena a través del gasoducto El Jobo-Mamonal.",
+        "height": 27.7,
+        "urlPicture": "https://www.sahagun-cordoba.gov.co/MiMunicipio/PublishingImages/Paginas/Fiestas-y-Celebraciones/Sahag%C3%BAn.jpg",
+        "latitud": "8.94617",
+        "longitud": "-75.44275"
     },
     {
-        "name": "URIBIA",
-        "powers": "Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu",
-        "alias": "Se encuentra ubicada en el Norte de la Guajira...",
-        "city": "En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe",
-        "height": 27.2,
-        "urlPicture": "https://i2.wp.com/elpilon.com.co/wp-content/uploads/2020/02/URIBIA2.jpg?fit=800%2C533&ssl=1"
+        "name": "MONTERÍA",
+        "powers": "La principal atracción turística de Montería es la avenida Primera o Veinte de Julio, paralela al río Sinú. Llena de luces, colorido y diversas edificaciones, la avenida Primera ofrece un espacio para la cultura y la diversión. Desde allí, es posible apreciar los animales silvestres del parque. ",
+        "alias": "Al noroccidente del país a orillas del río Sinú.",
+        "city": "La perla del Sinú. Es considerada la capital ganadera de Colombia. La principal atracción turística de Montería es la avenida Primera o Veinte de Julio, paralela al río Sinú, donde se encuentra el parque lineal más grande de América Latina, la Ronda del Sinú, desde el cual se puede apreciar el río Sinú que ha inspirado a poetas y pintores.",
+        "height": 29.7,
+        "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Puente_Segundo_Centenario.jpg/800px-Puente_Segundo_Centenario.jpg",
+        "latitud": "8.74798",
+        "longitud": "-75.88143"
     },
     {
-        "name": "VILLANUEVA",
-        "powers": "Ir a ver el Ojo de Agua,nadar y broncearte en Playa Arcoiris, disfrutar de un hermoso atardecer en el Faro de Cabo de la Vela, ... En Cabo de la Vela encontrarás lugares en los que podrás comprar artesanías y otro tipo de recuerdos como pulseras, mochilas entre otros artículos Wayùu",
-        "alias": "Se encuentra ubicada en el Norte de la Guajira...",
-        "city": "En el extremo norte del territorio colombiano, en la región de La Guajira y antes de llegar a Punta Gallinas, se encuentra este destino imperdible a la hora de visitar nuestro país. Se trata de una de las playas más tranquilas y paradisíacas, ubicada en la zona desértica más amplia de Colombia que a su vez comparte con el Mar Caribe",
+        "name": "CIÉNAGA DE ORO",
+        "powers": "El reconocido politico actual Gustavo Petro es de aquí. Aunque en cienaga de oro se puede hacer gran cantidad de eventos y recorridos su atracción principal es la Iglesia de San José.",
+        "alias": "Al nordeste de Córdoba y 35 km de Montería.",
+        "city": "Ciénaga de oro, un remanso de paz en el el sinú medio del departamento de Córdoba, Colombia, pueblo de gente amable, religiosa, cultural, deportiva y de buenas costumbres, tierra mitica, un legado de la antigua cultura nativa que tuvo su asentamiento en esta hermosa tierra, desde el nombre de cienaga de oro es mitico.",
         "height": 27.2,
-        "urlPicture": "https://panoramacultural.com.co/media/images/articulos/2019/08/04225523.jpg"
+        "urlPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Iglesiacienagadeoro.jpg/800px-Iglesiacienagadeoro.jpg",
+        "latitud": "8.867",
+        "longitud": "-75.617"
     }
 ]
